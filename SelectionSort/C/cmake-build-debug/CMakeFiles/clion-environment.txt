@@ -1,0 +1,4 @@
+ToolSet: w64 3.3 (local)@D:\Compiler language\C\MinGW64
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/Compiler tool/CLion 2022.1.1/bin/ninja/win/ninja.exe

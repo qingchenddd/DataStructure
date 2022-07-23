@@ -14,11 +14,6 @@
 
 def main():
     data = [11, 22, 1, 99, 58, 64, 78, 26, 24, 84, 23, 16, 156, 178]
-    print(sort(data))
-    pass
-
-
-def sort(data: list) -> list:
     for i in range(len(data)-1):
         index = i
         for j in range(i+1, len(data)):
@@ -27,8 +22,7 @@ def sort(data: list) -> list:
         temp = data[index]
         data[index] = data[i]
         data[i] = temp
-        pass
-    return data
+    print(data)
     pass
 
 

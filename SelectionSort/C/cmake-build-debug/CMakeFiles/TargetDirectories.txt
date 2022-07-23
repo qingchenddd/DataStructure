@@ -1,0 +1,3 @@
+D:/Git Hub Repositories/DataStructureStudy/SelectionSort/C/cmake-build-debug/CMakeFiles/C.dir
+D:/Git Hub Repositories/DataStructureStudy/SelectionSort/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git Hub Repositories/DataStructureStudy/SelectionSort/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
