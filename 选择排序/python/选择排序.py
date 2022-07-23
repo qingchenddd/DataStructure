@@ -19,7 +19,7 @@ def main():
 
 
 def sort(data: list) -> list:
-    for i in range(len(data)):
+    for i in range(len(data)-1):
         index = i
         for j in range(i+1, len(data)):
             if data[j] < data[index]:
