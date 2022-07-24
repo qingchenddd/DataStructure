@@ -5,18 +5,16 @@
 # @Software : PyCharm
 
 def main():
-   data = [11, 22, 1, 99, 58, 64, 78, 156, 178]
-   for i in range(len(data)-1):
-       index = i
-       for j in range(i+1, len(data)):
-           if data[j] < data[index]:
-               index = j
-       temp = data[index]
-       data[index] = data[i]
-       data[i] = temp
-   print(data)
-   pass
+    data = [11, 22, 99, 88, 55, 44, 77]
+    for i in range(len(data)):
+        for j in range(0, len(data) - i - 1):
+            if data[j] > data[j + 1]:
+                temp = data[j + 1]
+                data[j + 1] = data[j]
+                data[j] = temp
+    print(data)
+    pass
 
 
 if __name__ == "__main__":
-   	main()
+    main()
